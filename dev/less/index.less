@@ -1,0 +1,82 @@
+//颜色
+@green1:#1abc9c;
+@green2:#16a085;
+@green3:#2ecc71;
+@green4:#27AE60;
+
+@blue:#3498db;
+@blue:#2980b9;
+
+@purple:#9b59b6;
+@purple:#8e44ad;
+
+@dark:#34495e;
+@dark2:#2c3e50;
+
+@yellow:#f1c40f;
+@orange:#f39c12;
+@orange2:#e67e22;
+@orange3:#d35400;
+
+@red:#e74c3c;
+@red2:#c0392b;
+
+@white:#ecf0f0;
+@gray:#bdc3c7;
+@gray2:#95a5a6;
+@gray3:#7f8c8d;
+
+//高度
+@headerHeight : 75px;
+
+html,body{
+  color: @dark;
+  min-width: 1300px;
+  color: @blue;
+}
+header{
+  height: @headerHeight;
+  .title{
+    height: @headerHeight;
+    line-height: @headerHeight;
+    font-size: 0.5 * @headerHeight;
+    margin-left: @headerHeight;
+    color: @blue;
+    font-weight : bold;
+  }
+}
+nav{
+  border-top: 1px solid @gray;
+  padding-top: 0.2 * @headerHeight;
+}
+
+.orange{
+  background: @orange;
+  height: 50px;
+}
+.orange2{
+  background: @orange2;
+  height: 50px;
+}
+// input {
+//   width: 150px;
+//   height: 30px;
+//   border-radius: @buttonRadius;
+//   background: @inputBackground;
+//   transition: 2s;
+//   text-align: center;
+// }
+// input:focus{
+//   width: 200px;
+//   background: @inputHoverBackground;
+//   color: @inputBackground;
+// }
+
+.container{
+  background: @dark2;
+}
+.container-fluid{
+  margin:0 20px;
+  background: @dark;
+  height: 200px;
+}

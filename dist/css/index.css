@@ -1,0 +1,37 @@
+html,
+body {
+  color: #34495e;
+  min-width: 1300px;
+  color: #2980b9;
+}
+header {
+  height: 75px;
+}
+header .title {
+  height: 75px;
+  line-height: 75px;
+  font-size: 37.5px;
+  margin-left: 75px;
+  color: #2980b9;
+  font-weight: bold;
+}
+nav {
+  border-top: 1px solid #bdc3c7;
+  padding-top: 15px;
+}
+.orange {
+  background: #f39c12;
+  height: 50px;
+}
+.orange2 {
+  background: #e67e22;
+  height: 50px;
+}
+.container {
+  background: #2c3e50;
+}
+.container-fluid {
+  margin: 0 20px;
+  background: #34495e;
+  height: 200px;
+}
