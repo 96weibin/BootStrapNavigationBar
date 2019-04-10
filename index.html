@@ -5,39 +5,44 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MO</title>
-  <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./dist/css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./dist/css/bootstrap/datetimepicker.css">
   <link rel="stylesheet" href="./dist/css/index.css">
-  
-  <!--[if lt IE9]>
-    <script src="./dist/js/html5shiv.min.js"></script>
-    <script src="./dist/js/respond.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="./dist/js/bootstrap/html5shiv.min.js"></script>
+    <script src="./dist/js/bootstrap/respond.min.js"></script>
   <![endif]-->
-
 </head>
 <body>
   <header id="header">
-    <div class="title">MO系统</div>
+    <div class="title">MO管理</div>
   </header>
   <nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-12">
+          <form action="#" role="form" class="form-inline">
+              <div class="form-group">
+                <label for="dtp_input1" class="col-md-1 control-label">起始时间</label>
+                <div class="input-group date form_datetime col-md-2" data-link-field="dtp_input1">
+                  <input class="form-control" size="16" type="text" value="" readonly>
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                  <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span> -->
+                </div>
+                <input type="hidden" id="dtp_input1" value="" /><br />
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </nav>
   <article>
-      <div class="container">
-          <div class="row">
-            <div class="col-lg-4 align-self-start orange">
-              One of three columns
-            </div>
-            <div class="col-lg-4 align-self-center">
-              One of three columns
-            </div>
-            <div class="col-lg-4 align-self-end orange2">
-              One of three columns
-            </div>
-          </div>
-        </div>
   </article>
   <footer></footer>
-  <script src="./dist/js/jquery.min.js"></script>
-  <script src="./dist/js/bootstrap.min.js"></script>
+  <script src="./dist/js/jquery/jquery-1.7.2.min.js"></script>
+  <script src="./dist/js/bootstrap/bootstrap.min.js"></script>
+  <script src="./dist/js/bootstrap/bootstrap-datetimepicker.js"></script>
+  <script src="./dist/js/bootstrap/bootstrap-datetimepicker.fr.js"></script>
   <script src="./dist/js/index.js"></script>
 </body>
 </html>
