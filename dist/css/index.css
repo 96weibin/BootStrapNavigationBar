@@ -1,7 +1,6 @@
 html,
 body {
   color: #34495e;
-  min-width: 1300px;
   font-size: 14px;
 }
 header {
@@ -17,5 +16,11 @@ header .title {
 }
 nav {
   border-top: 1px solid #bdc3c7;
-  padding-top: 15px;
+  padding-top: 7.5px;
+}
+.row {
+  background: #2ecc71;
+}
+.item {
+  background: #f39c12;
 }
